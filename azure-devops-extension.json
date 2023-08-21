@@ -1,0 +1,45 @@
+{
+    "manifestVersion": 1,
+    "id": "bibasamplemy-first-extension",
+    "publisher": "bibasample",
+    "version": "1.0.156",
+    "name": "bibasample",
+    "description": "Azure DevOps Extension",
+    "categories": [
+        "Azure Repos",
+        "Azure Boards",
+        "Azure Pipelines",
+        "Azure Test Plans",
+        "Azure Artifacts"
+    ],
+    "targets": [
+        {
+            "id": "Microsoft.VisualStudio.Services"
+        }
+    ],
+    "scopes": [
+          "vso.code_write",
+          "vso.release",
+          "vso.tokens",
+          "vso.build_execute",
+          "vso.work_write"
+          ],
+    "icons": {
+        "default": "logo.png"
+    },
+    "content": {
+        "details": {
+            "path": "overview.md"
+        }
+    },
+    "files": [
+        {
+            "path": "static",
+            "addressable": true
+        },
+        {
+            "path": "dist",
+            "addressable": true
+        }
+    ]
+}
