@@ -1,0 +1,14 @@
+{
+  "contributions": [
+      {
+        "id": "test-custom-run-form",
+        "type": "ms.vss-web.control",
+        "description": "Test Execution Selection Form",
+        "targets": [       
+        ],
+        "properties": {
+            "uri": "dist/CustoTestRunForm/CustoTestRunForm.html"
+        }
+      }
+  ]
+}

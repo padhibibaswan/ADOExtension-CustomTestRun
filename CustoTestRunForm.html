@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Test Suite Tab</title>
+    <style>
+        .container {
+          text-align: center;
+          max-width: 400px;
+          margin: 0 auto;
+        }
+  
+        .container h1 {
+          font-size: 24px;
+        }
+  
+        .container p {
+          text-align: left;
+          margin: 10px 0;
+        }
+  
+        .container label {
+          display: inline-block;
+          width: 150px;
+          text-align: right;
+          margin-right: 10px;
+        }
+  
+        .container select {
+          width: 200px;
+        }
+  
+        #OK-Btn {
+          margin-top: 20px;
+        }
+  
+        #test-run-output {
+          margin-top: 20px;
+        }
+  </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Fill Below Details and click on Submit</h1>
+        <p>
+            <label>TestScript Repo:</label>
+            <select id="repoName" ></select>
+        </p>
+        
+        <p>
+            <label>Test Branch:</label>
+            
+            <select id="branchName" ></select>
+        </p>
+        <p>
+            <label>ProjectName:</label>
+            <select id="projectFolder" ></select>
+        </p>
+        <p>
+            <label>Select Build Pipeline:</label>
+            <select id="pipelines"></select>
+        </p>
+        <!-- <p>
+            <label>Tests Selected are:</label>
+            <div id="divtag"></div>
+            <ul id="testcaseList"></ul>
+            
+        </p> -->
+
+        <div id="test-run-form"></div>
+        <button id="OK-Btn" disabled>Submit</button>
+
+        <div id="test-run-output"></div>
+        
+    </div>
+    <script src="CustoTestRunForm.js"></script>
+</body>
+</html>
