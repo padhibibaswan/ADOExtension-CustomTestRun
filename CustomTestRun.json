@@ -1,0 +1,20 @@
+{
+  "contributions": [
+    
+      {
+        "id": "showProperties_15",
+        "type": "ms.vss-web.action",
+        "description": "Shows the target properties for menu actions for the test runs grid",
+        "targets": [
+            "ms.vss-test-web.test-run-grid-menu"
+        ],
+        "properties": {
+            "text": "Custom test run grid action",
+            "title": "ms.vss-test-web.test-run-grid-menu",
+            "group": "actions",
+            "uri": "dist/CustomTestRun/CustomTestRun.html",
+            "registeredObjectId": "showProperties"
+        }
+    }
+  ]
+}
